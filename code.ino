@@ -58,7 +58,7 @@ delay(3000);}
 else{ delay(1000);
 Serial.println(" ==>Dry Waste ");
 servo1.write(10);
-delay(3000);}
+delay(3000);} 
 
 servo1.write(90);}
 distance=0;
